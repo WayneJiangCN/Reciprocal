@@ -1,0 +1,37 @@
+
+
+#!SPYGLASS_PROJECT_FILE
+#!VERSION 3.0
+#  -------------------------------------------------------------------
+#  This is a software generated project file. Manual edits to this file could be lost during the next save operation
+#  Copyright Synopsys Inc.
+#  Last Updated By: SpyGlass SpyGlass_vQ-2020.03-SP2
+#  Last Updated On Mon Dec 26 12:44:16 2022
+#
+#  -------------------------------------------------------------------
+
+##Data Import Section
+
+read_file -type sourcelist ./filelist.f
+read_file -type sgdc ./flt_pds2.sgdc
+
+##Common Options Section
+
+##set top
+set_option projectwdir .
+set_option language_mode mixed
+set_option designread_enable_synthesis no
+set_option designread_disable_flatten no
+set_option sdc2sgdc yes
+set_option enableSV yes
+set_option auto_save no
+set_option enable_save_restore no
+set_option enable_precompile_vlog yes
+set_option top flt_pds2
+set_option active_methodology $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff
+set_option ignoredu {GTP_APM_E2 ipm2l_apm_data_pipeline ipm2l_apm_distributed_sdpram ipm2l_apm_distributed_shiftregister ipm2l_mult_v1_2 ipm_distributed_sdpram_v1_2 ipm_distributed_shiftregister_v1_3}
+
+##Goal Setup Section
+
+current_methodology $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff
+

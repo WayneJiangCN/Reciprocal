@@ -1,0 +1,3 @@
+Command Line: /anlabeda/Synopsysb/synopsys2018/verdi/O-2018.09-SP1/platform/LINUXAMD64/bin/Novas -f filelist.f -ssf fma_64.fsdb
+uname(Linux anlab012 3.10.0-1160.88.1.el7.x86_64 #1 SMP Tue Mar 7 15:41:52 UTC 2023 x86_64)
+au time 25.011842 3.873556 0.603385 delta 614002688 614002688 total 1038790656 1038790656

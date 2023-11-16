@@ -1,0 +1,43 @@
+*design* DebussyLib (btIdent Verdi_O-2018.09-SP1)
+Command arguments:
+    +define+verilog
+    -f filelist.f
+        rtl/synplify/div_inv/ipsxe_floating_point_div_inv_v1_0.v
+        rtl/synplify/div_inv/reci_5.v
+        rtl/synplify/div_inv/n_rom.v
+        rtl/synplify/div_inv/GTP_APM_E2.v
+        rtl/synplify/blocking/ipsxe_floating_point_axi_buffer_1io_v1_0.v
+        rtl/synplify/blocking/ipsxe_floating_point_axi_buffer_4io_v1_0.v
+        rtl/synplify/blocking/ipsxe_floating_point_sram_dualports_v1_0.v
+        rtl/synplify/ipsxe_floating_point_abcop_tvalid_v1_0.v
+        rtl/synplify/ipsxe_floating_point_aclken_aresetn_v1_0.v
+        rtl/synplify/ipsxe_floating_point_fp_15ops_v1_0.v
+        rtl/synplify/ipsxe_floating_point_op_tdata_v1_0.v
+        rtl/synplify/ipsxe_floating_point_register_v1_0.v
+        rtl/synplify/ipsxe_floating_point_tlast_v1_0.v
+        rtl/synplify/shift_register/ipm_distributed_sdpram_v1_2.v
+        rtl/synplify/shift_register/ipm_distributed_shiftregister_v1_3.v
+        rtl/synplify/shift_register/ipm_distributed_shiftregister_wrapper_v1_3.v
+        flt_pds2.v
+        flt_pds2_tb.v
+
+
+*Error* Syntax error at ++
+"flt_pds2_tb.v", 115: 
+
+*Error* missing step assignment in for assignment
+"flt_pds2_tb.v", 115: 
+Highest level modules:
+ipm_distributed_shiftregister_wrapper_v1_3
+flt_pds2_tb
+
+
+*Warning* port sizes differ (1 vs 32) in port connection (port rd_en)
+"rtl/synplify/div_inv/reci_5.v", 27: 
+
+*Warning* port sizes differ (30 vs 24) in port connection (port X)
+"rtl/synplify/div_inv/reci_5.v", 79: 
+
+*Warning* port sizes differ (30 vs 24) in port connection (port X)
+"rtl/synplify/div_inv/reci_5.v", 171: 
+Total	2 error(s),   3 warning(s)

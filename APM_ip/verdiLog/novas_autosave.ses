@@ -1,0 +1,81 @@
+@verdi rc file Version 1.0
+[General]
+saveDB = TRUE
+relativePath = FALSE
+saveSingleView = FALSE
+saveNWaveWinId = 
+VerdiVersion = Verdi_O-2018.09-SP1
+[KeyNote]
+Line1 = Automatic Backup 0
+Line2 = Save Open Database Information: Yes
+Line3 = Path Option: Absolute Paths
+Line4 = Windows Option: All Windows
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+Console = FALSE
+powerDumped = 0
+[hb]
+postSimFile = /anlab/stuhome/zngz17/Lab_work/Float_point/pds_ip_10_27/APM_ip/fma_64.fsdb
+syncTime = 0
+viewport = 0 31 1920 971 0 0 388 1918
+activeNode = "tb_GTP_APM_E2"
+activeScope = "tb_GTP_APM_E2"
+activeFile = "/anlab/stuhome/zngz17/Lab_work/Float_point/pds_ip_10_27/APM_ip/tb_GTP_APM_E2.v"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 2
+baMode = False
+srcLineNum = True
+AutoWrap = True
+IdentifyFalseLogic = False
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+powerAwareAnnot = True
+amsAnnot = True
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "tb_GTP_APM_E2"
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.design]
+importCmd = "-f" "filelist.f" 
+invokeDir = /anlab/stuhome/zngz17/Lab_work/Float_point/pds_ip_10_27/APM_ip
+[hb.sourceTab.1]
+scope = tb_GTP_APM_E2
+File = /anlab/stuhome/zngz17/Lab_work/Float_point/pds_ip_10_27/APM_ip/tb_GTP_APM_E2.v
+Line = 3
+[nMemoryManager]
+FsdbFile = /anlab/stuhome/zngz17/Lab_work/Float_point/pds_ip_10_27/APM_ip/fma_64.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 27 1920 389 100 65
+primaryWindow = TRUE
+SessionFile = /anlab/stuhome/zngz17/Lab_work/Float_point/pds_ip_10_27/APM_ip/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSyncCursorMarker = FALSE
+waveformSyncHorizontalRange = FALSE
+waveformSyncVerticalscroll = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE

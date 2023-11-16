@@ -1,0 +1,48 @@
+##### Written on 2023/11/15 19:07:16 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PG2T390H-6FFBG900
+
+Top Module : 
+	ipsxe_floating_point_div_inv_v1_0
+
+Constraint File(s) : 
+	/anlab/stuhome/zngz17/Lab_work/Float_point/pds_ip_10_27/APM_ip/ipsxe_floating_point_core_only.fdc
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 0 critical warning(s), 9 warning(s), out of 1 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+
+Constraints with issues:
+********************************************
+
+
+Issues without commands:
+********************************************
+
+
+Unconstrained ports:
+********************************************
+
+W: ConstraintEditor-4019: Port Bus 'i_op_in' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port Bus 'o_resul' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_aclken' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_areset_n' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_clk' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_tvalid' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'o_divide_by_zero' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'o_q_valid' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'o_underflow' unspecified I/O constraint.
+
+Constraints with matching wildcard expressions:
+********************************************
+
+

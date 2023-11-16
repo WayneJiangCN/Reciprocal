@@ -1,0 +1,13 @@
+
+
+current_design flt_pds2
+
+clock -name i_aclk -period 2 -edge 0 1
+
+
+
+input -name { \
+i_axi4s_a_tdata \
+i_axi4s_a_tvalid \
+} -clock i_aclk
+

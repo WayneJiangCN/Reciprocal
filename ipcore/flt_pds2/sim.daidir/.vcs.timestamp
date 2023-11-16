@@ -1,0 +1,156 @@
+0 
+39
++define+FSDB
++itf+/anlabeda/Synopsysb/synopsys2018/vcs-mx/O-2018.09-SP1/linux64/lib/vcsdp_lite.tab
++nospecify
++notimingcheck
++v2k
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/anlabeda/Synopsysb/synopsys2018/vcs-mx/O-2018.09-SP1/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /anlabeda/Synopsysb/synopsys2018/vcs-mx/O-2018.09-SP1/linux64/lib/libvirsim.so /anlabeda/Synopsysb/synopsys2018/vcs-mx/O-2018.09-SP1/linux64/lib/liberrorinf.so /anlabeda/Synopsysb/synopsys2018/vcs-mx/O-2018.09-SP1/linux64/lib/libsnpsmalloc.so /anlabeda/Synopsysb/synopsys2018/vcs-mx/O-2018.09-SP1/linux64/lib/libvfs.so
+-Mout=sim
+-Msaverestoreobj=/anlabeda/Synopsysb/synopsys2018/vcs-mx/O-2018.09-SP1/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/anlabeda/Synopsysb/synopsys2018/verdi/O-2018.09-SP1/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/anlabeda/Synopsysb/synopsys2018/vcs-mx/O-2018.09-SP1/include
+-P
+-Xvcs_run_simv=1
+-debug_acc+all
+-debug_acc+fsdb
+-f filelist.f
+-fsdb
+-full64
+-gen_obj
+-l
+-o sim
+-picarchive
+-sverilog
+-timescale=1ns/100ps
+/anlabeda/Synopsysb/synopsys2018/vcs-mx/O-2018.09-SP1/linux64/bin/vcs1
+/anlabeda/Synopsysb/synopsys2018/verdi/O-2018.09-SP1/share/PLI/VCS/LINUX64/verdi.tab
+sim.log
+84
+toolspath=/anlabeda/Cadence
+sysc_uni_pwd=/anlab/stuhome/zngz17/Lab_work/Float_point/pds_ip_10_27/ipcore/flt_pds2
+_CE_M=
+_CE_CONDA=
+XILINX_VIVADO=/anlabeda/Vivado/Vivado/2019.1
+XDG_SESSION_ID=c52
+XDG_RUNTIME_DIR=/run/user/1035
+XDG_DATA_DIRS=/anlab/stuhome/zngz17/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+VXE_HOME=/anlabeda/Cadence/VXE1910_is5
+VTE_VERSION=5204
+VNCDESKTOP=anlab012:17 (zngz17)
+VMR_MODE_FLAG=64
+VENDOR=unknown
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=sim.log
+VCS_HOME=/anlabeda/Synopsysb/synopsys2018/vcs-mx/O-2018.09-SP1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/anlabeda/Synopsysb/synopsys2018/vcs-mx/O-2018.09-SP1/linux64
+SYNOPSYS_HOME=/anlabeda/Synopsysb
+SYNOPSYS18_HOME=/anlabeda/Synopsysb/synopsys2018
+SSV_HOME=/anlabeda/Cadence/SSV14.21_s062
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SOCE_HOME=/anlabeda/Cadence/EDI14.21_s062
+SIGRITY_EDA_DIR=/anlabeda/Cadence/SPB17/../Sigrity2016
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+RC_HOME=/anlabeda/Cadence/RC14.20_s016
+QUESTA_HOME=/anlabeda/Mentor/questa_prime_2020.4/questasim
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+QRC_HOME=/anlabeda/Cadence/EXT14.1.5
+PVEHOME=/anlabeda/Cadence/PVS14.1.3
+PASHOME=/anlabeda/Cadence/PAS3.05
+PANGO_LICENSE_FILE=27000@anlab012:30000@sme20
+OVA_UUM=0
+OSTYPE=linux
+NOVAS_HOME=/anlabeda/Synopsysb/synopsys2018/verdi/O-2018.09-SP1
+MTI_HOME=/anlabeda/Mentor/questa_prime_2020.4/questasim
+MMSIMHOME=/anlabeda/Cadence/SPECTRE181ISR12
+MMSIM=/anlabeda/Cadence/SPECTRE181ISR12
+MGC_HOME=/anlabeda/Mentor/aoi_cal_2020.4_23.14
+MFLAGS=
+MAKELEVEL=1
+MAKEFLAGS=
+LIC=5280@sme23:1777@sme23:5280@10.20.65.236:27050@10.20.65.236:30000@sme20
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+IXCOM_HOME=/anlabeda/Cadence/IXC20.05
+IES_HOME=/anlabeda/Cadence/INCISIV132s010
+HOSTTYPE=x86_64-linux
+HDLICE_HOME=/anlabeda/Cadence/HDLICE20.05
+GROUP=anstugroup
+EXT_HOME=/anlabeda/Cadence/EXT14.1.5
+ET_HOME=/anlabeda/Cadence/ET14
+ETS_HOME=/anlabeda/Cadence/ETS-13.14-s017
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Gm22q54P4e,guid=5d01d2da405819cac5e52c3e65154104
+CON_HOME=/anlabeda/Cadence/CONFRML141_p100
+CONDA_SHLVL=2
+CONDA_PYTHON_EXE=/anlab/stuhome/zngz17/anaconda3_install/bin/python
+CONDA_PROMPT_MODIFIER=(python3) 
+CONDA_PREFIX_1=/anlab/stuhome/zngz17/anaconda3_install
+CONDA_PREFIX=/anlab/stuhome/zngz17/anaconda3_install/envs/python3
+CONDA_EXE=/anlab/stuhome/zngz17/anaconda3_install/bin/conda
+CONDA_DEFAULT_ENV=python3
+COLORTERM=truecolor
+CICHOME=/anlabeda/Cadence/IC618
+CDS_XVNC_TENBASE=+
+CDS_Netlisting_Mode=Analog
+CDS_LIC_FILE=5280@sme23:1777@sme23:5280@10.20.65.236:27050@10.20.65.236:30000@sme20
+CDS_AUTO_64BIT=ALL
+CDSROOT=/anlabeda/Cadence/SPB166S021
+CDSHOME=/anlabeda/Cadence/IC618
+ASSURAHOME=/anlabeda/Cadence/ASSURA413H1_615
+ASSURA=/anlabeda/Cadence/ASSURA413H1_615
+ASI_HOME=/anlabeda/Cadence/ASI/Update3/
+AMSHOME=/anlabeda/Cadence/INCISIV132s010
+AMS=/anlabeda/Cadence/INCISIV132s010
+ALTHSHOME=/anlabeda/Cadence/LIBERATE/LIBERATE192
+0
+21
+1699253012 flt_pds2_tb.v
+1698390147 flt_pds2.v
+1698390144 rtl/synplify/shift_register/ipm_distributed_shiftregister_wrapper_v1_3.v
+1698390144 rtl/synplify/shift_register/ipm_distributed_shiftregister_v1_3.v
+1698390144 rtl/synplify/shift_register/ipm_distributed_sdpram_v1_2.v
+1698390144 rtl/synplify/ipsxe_floating_point_tlast_v1_0.v
+1698390144 rtl/synplify/ipsxe_floating_point_register_v1_0.v
+1698390144 rtl/synplify/ipsxe_floating_point_op_tdata_v1_0.v
+1698391041 rtl/synplify/ipsxe_floating_point_fp_15ops_v1_0.v
+1698390144 rtl/synplify/ipsxe_floating_point_aclken_aresetn_v1_0.v
+1698390144 rtl/synplify/ipsxe_floating_point_abcop_tvalid_v1_0.v
+1698390144 rtl/synplify/blocking/ipsxe_floating_point_sram_dualports_v1_0.v
+1698390144 rtl/synplify/blocking/ipsxe_floating_point_axi_buffer_4io_v1_0.v
+1698390144 rtl/synplify/blocking/ipsxe_floating_point_axi_buffer_1io_v1_0.v
+1699678457 rtl/synplify/div_inv/GTP_APM_E2.v
+1700033417 rtl/synplify/div_inv/n_rom.v
+1700046184 rtl/synplify/div_inv/reci_5.v
+1699252500 rtl/synplify/div_inv/ipsxe_floating_point_div_inv_v1_0.v
+1699972827 filelist.f
+1676292355 /anlabeda/Synopsysb/synopsys2018/verdi/O-2018.09-SP1/share/PLI/VCS/LINUX64/verdi.tab
+1676292264 /anlabeda/Synopsysb/synopsys2018/vcs-mx/O-2018.09-SP1/linux64/lib/vcsdp_lite.tab
+4
+1676292270 /anlabeda/Synopsysb/synopsys2018/vcs-mx/O-2018.09-SP1/linux64/lib/libvirsim.so
+1676292259 /anlabeda/Synopsysb/synopsys2018/vcs-mx/O-2018.09-SP1/linux64/lib/liberrorinf.so
+1676292259 /anlabeda/Synopsysb/synopsys2018/vcs-mx/O-2018.09-SP1/linux64/lib/libsnpsmalloc.so
+1676292269 /anlabeda/Synopsysb/synopsys2018/vcs-mx/O-2018.09-SP1/linux64/lib/libvfs.so
+1700046199 sim.daidir
+-1 partitionlib

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip_inst>
+    <header>
+        <vendor>Pango</vendor>
+        <id>00000000</id>
+        <display_name>Floating Point</display_name>
+        <name>Floating Point</name>
+        <version>1.0</version>
+        <instance>flt_pds2</instance>
+        <family>Titan2</family>
+        <device>PG2T390H</device>
+        <package>FFBG900</package>
+        <speedgrade>-6</speedgrade>
+        <generator version="2022.2" build="117120">IP Compiler</generator>
+    </header>
+    <param_list>
+        <param>
+            <name>CHECKBOX_INVALID_OP</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>TUSER_IN_B_WIDTH</name>
+            <value>1</value>
+        </param>
+        <param>
+            <name>PRECISION_RESULT</name>
+            <value>0</value>
+        </param>
+        <param>
+            <name>CUSTOM_RESULT_EXP_WIDTH</name>
+            <value>8</value>
+        </param>
+        <param>
+            <name>RESULT_TREADY</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>ACCUM_LSB</name>
+            <value>-31</value>
+        </param>
+        <param>
+            <name>APM_USAGE</name>
+            <item>No Usage</item>
+            <item>Full Usage</item>
+            <value>No Usage</value>
+        </param>
+        <param>
+            <name>CHECKBOX_ACCUM_INPUT_OVERFLOW</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>CHECKBOX_DIVIDE_BY_ZERO</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>C_TLAST</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>C_TUSER</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>OPERATION_TLAST</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>B_TUSER</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>SHOW_RESULT_TLAST</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>SHOW_C</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>OP_PM_COMP</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>CHECKBOX_OVERFLOW</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>SHOW_RESULT_TUSER</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>SHOW_B</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>B_TLAST</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>ACCUM_MSB</name>
+            <value>32</value>
+        </param>
+        <param>
+            <name>TUSER_IN_OPERATION_WIDTH</name>
+            <value>1</value>
+        </param>
+        <param>
+            <name>CHECKBOX_UNDERFLOW</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>SHOW_OPERATION</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>BLOCKING</name>
+            <value>0</value>
+        </param>
+        <param>
+            <name>CUSTOM_RESULT_FRAC_WIDTH</name>
+            <value>24</value>
+        </param>
+        <param>
+            <name>CUSTOM_INPUT_FIXED_INT_WIDTH</name>
+            <value>32</value>
+        </param>
+        <param>
+            <name>PREC_INPUT</name>
+            <item>Half</item>
+            <item>Single</item>
+            <item>Double</item>
+            <value>Single</value>
+        </param>
+        <param>
+            <name>CUSTOM_RESULT_FIXED_FRAC_WIDTH</name>
+            <value>0</value>
+        </param>
+        <param>
+            <name>CHECKBOX_ACCUM_OVERFLOW</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>OP_COMPARE</name>
+            <value>0</value>
+        </param>
+        <param>
+            <name>TLAST_BEHAVIOR</name>
+            <item>Null</item>
+            <value>Null</value>
+        </param>
+        <param>
+            <name>CHECKBOX_ACLKEN</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>OP_PLUS_MINUS</name>
+            <value>0</value>
+        </param>
+        <param>
+            <name>PRECISION_INPUT</name>
+            <value>1</value>
+        </param>
+        <param>
+            <name>SPEED_LATENCY</name>
+            <value>0</value>
+        </param>
+        <param>
+            <name>PREC_RESULT</name>
+            <item>Half</item>
+            <item>Single</item>
+            <item>Double</item>
+            <item>Custom</item>
+            <value>Half</value>
+        </param>
+        <param>
+            <name>ACCUM_INPUT_MSB</name>
+            <value>32</value>
+        </param>
+        <param>
+            <name>CUSTOM_RESULT_FIXED_INT_WIDTH</name>
+            <value>32</value>
+        </param>
+        <param>
+            <name>AXI_OPT</name>
+            <value>0</value>
+        </param>
+        <param>
+            <name>LATENCY_CONFIG</name>
+            <value>0</value>
+        </param>
+        <param>
+            <name>TUSER_IN_A_WIDTH</name>
+            <value>1</value>
+        </param>
+        <param>
+            <name>ABCOP_TUSER</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>OPERATION_TUSER</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>OP_SEL</name>
+            <value>12</value>
+        </param>
+        <param>
+            <name>TUSER_IN_C_WIDTH</name>
+            <value>1</value>
+        </param>
+        <param>
+            <name>A_TUSER</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>CUSTOM_INPUT_EXP_WIDTH</name>
+            <value>8</value>
+        </param>
+        <param>
+            <name>CUSTOM_INPUT_FIXED_FRAC_WIDTH</name>
+            <value>0</value>
+        </param>
+        <param>
+            <name>CHECKBOX_ARESETN</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>A_TLAST</name>
+            <value>false</value>
+        </param>
+        <param>
+            <name>CUSTOM_INPUT_FRAC_WIDTH</name>
+            <value>24</value>
+        </param>
+    </param_list>
+    <pin_list>
+        <pin>
+            <name>i_aclk</name>
+            <text>i_aclk</text>
+            <dir>input</dir>
+            <pos>left</pos>
+        </pin>
+        <pin>
+            <name>i_axi4s_a_tdata</name>
+            <text>i_axi4s_a_tdata</text>
+            <dir>input</dir>
+            <pos>left</pos>
+            <msb>31</msb>
+            <lsb>0</lsb>
+        </pin>
+        <pin>
+            <name>i_axi4s_a_tvalid</name>
+            <text>i_axi4s_a_tvalid</text>
+            <dir>input</dir>
+            <pos>left</pos>
+        </pin>
+        <pin>
+            <name>o_axi4s_result_tdata</name>
+            <text>o_axi4s_result_tdata</text>
+            <dir>output</dir>
+            <pos>right</pos>
+            <msb>15</msb>
+            <lsb>0</lsb>
+        </pin>
+        <pin>
+            <name>o_axi4s_result_tvalid</name>
+            <text>o_axi4s_result_tvalid</text>
+            <dir>output</dir>
+            <pos>right</pos>
+        </pin>
+    </pin_list>
+    <synthesis>
+        <script><![CDATA[set_option -vlog_std v2001]]></script>
+        <script><![CDATA[set_option -disable_io_insertion 1]]></script>
+    </synthesis>
+    <file_list>
+        <output>
+            <file pathname="generate.log" format="log" description="Generate Log"/>
+            <file pathname="example_design/bench/flt_pds2_onboard_top_tb.v" format="verilog" description="Compiled File"/>
+            <file pathname="example_design/rtl/flt_pds2_onboard_top.v" format="verilog" description="Compiled File"/>
+            <file pathname="pnr/core_only/flt_pds2_core_only.v" format="verilog" description="Compiled File"/>
+            <file pathname="flt_pds2_tb.v" format="verilog" description="Compiled File"/>
+            <file pathname="flt_pds2_blocking_tb.v" format="verilog" description="Compiled File"/>
+            <file pathname="filelist.f" format="verilog" description="Compiled File"/>
+            <file pathname="Makefile" format="verilog" description="Compiled File"/>
+            <file pathname="spyglass/flt_pds2.sgdc" format="verilog" description="Compiled File"/>
+            <file pathname="spyglass/filelist.f" format="verilog" description="Compiled File"/>
+            <file pathname="spyglass/flt_pds2.prj" format="verilog" description="Compiled File"/>
+            <file pathname="spyglass/Makefile" format="verilog" description="Compiled File"/>
+            <file pathname="onboard/flt_pds2_onboard_tb.v" format="verilog" description="Compiled File"/>
+            <file pathname="onboard/flt_pds2_onboard.v" format="verilog" description="Compiled File"/>
+            <file pathname="onboard/filelist.f" format="verilog" description="Compiled File"/>
+            <file pathname="onboard/Makefile" format="verilog" description="Compiled File"/>
+            <file pathname="onboard_blocking/flt_pds2_onboard_blocking_tb.v" format="verilog" description="Compiled File"/>
+            <file pathname="onboard_blocking/flt_pds2_onboard_blocking.v" format="verilog" description="Compiled File"/>
+            <file pathname="onboard_blocking/filelist.f" format="verilog" description="Compiled File"/>
+            <file pathname="onboard_blocking/Makefile" format="verilog" description="Compiled File"/>
+            <file pathname="onboard_tlast_tuser/flt_pds2_onboard_tlast_tuser_tb.v" format="verilog" description="Compiled File"/>
+            <file pathname="onboard_tlast_tuser/flt_pds2_onboard_tlast_tuser.v" format="verilog" description="Compiled File"/>
+            <file pathname="onboard_tlast_tuser/filelist.f" format="verilog" description="Compiled File"/>
+            <file pathname="onboard_tlast_tuser/Makefile" format="verilog" description="Compiled File"/>
+            <file pathname="flt_pds2_tmpl.v" format="verilog" description="Instantiation Template"/>
+            <file pathname="flt_pds2_tmpl.vhdl" format="vhdl" description="Instantiation Template"/>
+        </output>
+        <source>
+            <file pathname="rtl/synplify/abs/ipsxe_floating_point_abs_v1_0.v"/>
+            <file pathname="rtl/synplify/accum/ipsxe_floating_point_accum_v1_0.v"/>
+            <file pathname="rtl/synplify/accum/ipsxe_floating_point_float_to_fixed_v1_0.v"/>
+            <file pathname="rtl/synplify/addsub/ipsxe_floating_point_addsub_32bit_1APM_v1_0.v"/>
+            <file pathname="rtl/synplify/addsub/ipsxe_floating_point_addsub_32bit_v1_0.v"/>
+            <file pathname="rtl/synplify/addsub/ipsxe_floating_point_addsub_64bit_1APM_v1_0.v"/>
+            <file pathname="rtl/synplify/addsub/ipsxe_floating_point_addsub_64bit_v1_0.v"/>
+            <file pathname="rtl/synplify/addsub/ipsxe_floating_point_addsub_v1_0.v"/>
+            <file pathname="rtl/synplify/addsub/ipsxe_floating_point_find_one_16bit_v1_0.v"/>
+            <file pathname="rtl/synplify/addsub/ipsxe_floating_point_find_one_32bit_v1_0.v"/>
+            <file pathname="rtl/synplify/addsub/ipsxe_floating_point_find_one_64bit_v1_0.v"/>
+            <file pathname="rtl/synplify/comp/ipsxe_floating_point_comp_v1_0.v"/>
+            <file pathname="rtl/synplify/div_inv/ipsxe_floating_point_div_inv_v1_0.v"/>
+            <file pathname="rtl/synplify/exp/ipsxe_floating_point_exp_16_axi_v1_0.v"/>
+            <file pathname="rtl/synplify/exp/ipsxe_floating_point_exp_32_axi_v1_0.v"/>
+            <file pathname="rtl/synplify/exp/ipsxe_floating_point_exp_64_axi_v1_0.v"/>
+            <file pathname="rtl/synplify/exp/ipsxe_floating_point_exp_axi_top_v1_0.v"/>
+            <file pathname="rtl/synplify/exp/ipsxe_floating_point_linebuffer_delay_v1_0.v"/>
+            <file pathname="rtl/synplify/fl2fl/ipsxe_floating_point_fl2fl_half_v1_0.v"/>
+            <file pathname="rtl/synplify/fl2fl/ipsxe_floating_point_fl2fl_nothalf_v1_0.v"/>
+            <file pathname="rtl/synplify/fl2fl/ipsxe_floating_point_fl2fl_top_v1_0.v"/>
+            <file pathname="rtl/synplify/fl2fl/ipsxe_floating_point_frac_round_v1_0.v"/>
+            <file pathname="rtl/synplify/fl2fl/ipsxe_floating_point_input_decode_v1_0.v"/>
+            <file pathname="rtl/synplify/fl2fl/ipsxe_floating_point_output_encode_v1_0.v"/>
+            <file pathname="rtl/synplify/fl2fx/ipsxe_floating_point_fl2fx_axi_v1_0.v"/>
+            <file pathname="rtl/synplify/fl2fx/ipsxe_floating_point_fl2fx_half_v1_0.v"/>
+            <file pathname="rtl/synplify/fl2fx/ipsxe_floating_point_fl2fx_nothalf_v1_0.v"/>
+            <file pathname="rtl/synplify/fl2fx/ipsxe_floating_point_fl2fx_top_v1_0.v"/>
+            <file pathname="rtl/synplify/fl2fx/ipsxe_floating_point_round_v6_v1_0.v"/>
+            <file pathname="rtl/synplify/fx2fl/ipsxe_floating_point_data_selector_4_16_v1_0.v"/>
+            <file pathname="rtl/synplify/fx2fl/ipsxe_floating_point_data_selector_4_8_v1_0.v"/>
+            <file pathname="rtl/synplify/fx2fl/ipsxe_floating_point_find_one_loc_v1_0.v"/>
+            <file pathname="rtl/synplify/fx2fl/ipsxe_floating_point_fx2fl_top_v1_0.v"/>
+            <file pathname="rtl/synplify/fx2fl/ipsxe_floating_point_one_loc_sub16_v1_0.v"/>
+            <file pathname="rtl/synplify/fx2fl/ipsxe_floating_point_one_loc_sub8_v1_0.v"/>
+            <file pathname="rtl/synplify/fma/sm53b/sm53b.v"/>
+            <file pathname="rtl/synplify/fma/ipsxe_floating_point_adder_double_v1_0.v"/>
+            <file pathname="rtl/synplify/fma/ipsxe_floating_point_adder_single_v1_0.v"/>
+            <file pathname="rtl/synplify/fma/ipsxe_floating_point_count_0s_double_v1_0.v"/>
+            <file pathname="rtl/synplify/fma/ipsxe_floating_point_count_0s_single_v1_0.v"/>
+            <file pathname="rtl/synplify/fma/ipsxe_floating_point_denorm2zero_v1_0.v"/>
+            <file pathname="rtl/synplify/fma/ipsxe_floating_point_fa_1bit_v1_0.v"/>
+            <file pathname="rtl/synplify/fma/ipsxe_floating_point_fma_double_v1_0.v"/>
+            <file pathname="rtl/synplify/fma/ipsxe_floating_point_fma_single_v1_0.v"/>
+            <file pathname="rtl/synplify/fma/ipsxe_floating_point_fma_v1_0.v"/>
+            <file pathname="rtl/synplify/fma/ipsxe_floating_point_ha_1bit_v1_0.v"/>
+            <file pathname="rtl/synplify/fma/ipsxe_floating_point_multiplier_double_v1_0.v"/>
+            <file pathname="rtl/synplify/fma/ipsxe_floating_point_multiplier_single_v1_0.v"/>
+            <file pathname="rtl/synplify/fma/ipsxe_floating_point_round_double_v1_0.v"/>
+            <file pathname="rtl/synplify/fma/ipsxe_floating_point_round_single_v1_0.v"/>
+            <file pathname="rtl/synplify/fma/ipsxe_floating_point_special_cases_v1_0.v"/>
+            <file pathname="rtl/synplify/log/ipsxe_floating_point_log_16_axi_v1_0.v"/>
+            <file pathname="rtl/synplify/log/ipsxe_floating_point_log_32_axi_v1_0.v"/>
+            <file pathname="rtl/synplify/log/ipsxe_floating_point_log_64_axi_v1_0.v"/>
+            <file pathname="rtl/synplify/log/ipsxe_floating_point_log_axi_top_v1_0.v"/>
+            <file pathname="rtl/synplify/mul/ipsxe_floating_point_mul_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/apm_primitive/ipsxe_floating_point_apm_primitive_a0hi_plus_cin1_plus_cin2_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/apm_primitive/ipsxe_floating_point_apm_primitive_a0hi_plus_cin1_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/apm_primitive/ipsxe_floating_point_apm_primitive_a0lo_minus_a1_y_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/apm_primitive/ipsxe_floating_point_apm_primitive_a0lo_minus_a1y_plus_zgroup2_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/apm_primitive/ipsxe_floating_point_apm_primitive_a1_y_rne_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/apm_primitive/ipsxe_floating_point_apm_primitive_a2hi_plus_cin1_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/apm_primitive/ipsxe_floating_point_apm_primitive_a2lo_minus_a3_y_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/apm_primitive/ipsxe_floating_point_apm_primitive_a3_y_rne_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/apm_primitive/ipsxe_floating_point_apm_primitive_a4_plus_a6_z_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/apm_primitive/ipsxe_floating_point_apm_primitive_a4a6z_minus_a5_y_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/apm_primitive/ipsxe_floating_point_apm_primitive_group2_hi_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/apm_primitive/ipsxe_floating_point_apm_primitive_group2_lo_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/apm_primitive/ipsxe_floating_point_apm_primitive_group3_hi_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/apm_primitive/ipsxe_floating_point_apm_primitive_group3_lo_rne_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/apm_primitive/ipsxe_floating_point_apm_primitive_z_group1_rne_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/apm_primitive/ipsxe_floating_point_apm_primitive_z_group2_rne_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/apm_primitive/ipsxe_floating_point_apm_primitive_z_rne_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/lut_a0_to_a6/ipsxe_floating_point_a0_hi_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/lut_a0_to_a6/ipsxe_floating_point_a0_lo_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/lut_a0_to_a6/ipsxe_floating_point_a1_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/lut_a0_to_a6/ipsxe_floating_point_a2_hi_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/lut_a0_to_a6/ipsxe_floating_point_a2_lo_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/lut_a0_to_a6/ipsxe_floating_point_a3_a4_a5_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/lut_a0_to_a6/ipsxe_floating_point_a6_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/mul/a1_y_mul.v"/>
+            <file pathname="rtl/synplify/invsqrt/mul/a3_y_mul.v"/>
+            <file pathname="rtl/synplify/invsqrt/mul/y_y_mul.v"/>
+            <file pathname="rtl/synplify/invsqrt/mul/z_group1_mul.v"/>
+            <file pathname="rtl/synplify/invsqrt/mul/z_group2_mul.v"/>
+            <file pathname="rtl/synplify/pango_mul/ipm2l_apm_data_pipeline/ipm2l_apm_data_pipeline.v"/>
+            <file pathname="rtl/synplify/pango_mul/ipm2l_apm_data_pipeline/ipm2l_apm_distributed_sdpram.v"/>
+            <file pathname="rtl/synplify/pango_mul/ipm2l_apm_data_pipeline/ipm2l_apm_distributed_shiftregister.v"/>
+            <file pathname="rtl/synplify/invsqrt/ipsxe_floating_point_exp_invsqrt_minus1_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/ipsxe_floating_point_invsqrt_32_apm_full_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/ipsxe_floating_point_invsqrt_32_apm_no_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/ipsxe_floating_point_invsqrt_64_apm_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/ipsxe_floating_point_invsqrt_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/ipsxe_floating_point_latency_config_v1_0.v"/>
+            <file pathname="rtl/synplify/invsqrt/ipsxe_floating_point_rne_v1_0.v"/>
+            <file pathname="rtl/synplify/sqrt/ipsxe_floating_point_bin2man_v1_0.v"/>
+            <file pathname="rtl/synplify/sqrt/ipsxe_floating_point_exp_sqrt_v1_0.v"/>
+            <file pathname="rtl/synplify/sqrt/ipsxe_floating_point_man2bin_v1_0.v"/>
+            <file pathname="rtl/synplify/sqrt/ipsxe_floating_point_special_cases_sqrt_v1_0.v"/>
+            <file pathname="rtl/synplify/sqrt/ipsxe_floating_point_sqrt_binary_v1_0.v"/>
+            <file pathname="rtl/synplify/sqrt/ipsxe_floating_point_sqrt_man_v1_0.v"/>
+            <file pathname="rtl/synplify/sqrt/ipsxe_floating_point_sqrt_v1_0.v"/>
+            <file pathname="rtl/synplify/umadd/ipm2l_multadd_v1_2_muladd.v"/>
+            <file pathname="rtl/synplify/umadd/ipsxe_floating_point_umadd_v1_0.v"/>
+            <file pathname="rtl/synplify/umacc/ipm2l_multacc_v1_1_mulacc.v"/>
+            <file pathname="rtl/synplify/umacc/ipsxe_floating_point_umacc_v1_0.v"/>
+            <file pathname="rtl/synplify/accprim/ipm2l_acc_v1_1a_accum.v"/>
+            <file pathname="rtl/synplify/accprim/ipsxe_floating_point_accprim_v1_0.v"/>
+            <file pathname="rtl/synplify/blocking/ipsxe_floating_point_axi_buffer_1io_v1_0.v"/>
+            <file pathname="rtl/synplify/blocking/ipsxe_floating_point_axi_buffer_4io_v1_0.v"/>
+            <file pathname="rtl/synplify/blocking/ipsxe_floating_point_sram_dualports_v1_0.v"/>
+            <file pathname="rtl/synplify/shift_register/ipm_distributed_sdpram_v1_2.v"/>
+            <file pathname="rtl/synplify/shift_register/ipm_distributed_shiftregister_v1_3.v"/>
+            <file pathname="rtl/synplify/shift_register/ipm_distributed_shiftregister_wrapper_v1_3.v"/>
+            <file pathname="rtl/synplify/ipsxe_floating_point_abcop_tvalid_v1_0.v"/>
+            <file pathname="rtl/synplify/ipsxe_floating_point_aclken_aresetn_v1_0.v"/>
+            <file pathname="rtl/synplify/ipsxe_floating_point_fp_15ops_v1_0.v"/>
+            <file pathname="rtl/synplify/ipsxe_floating_point_op_tdata_v1_0.v"/>
+            <file pathname="rtl/synplify/ipsxe_floating_point_register_v1_0.v"/>
+            <file pathname="rtl/synplify/ipsxe_floating_point_tlast_v1_0.v"/>
+            <file pathname="rtl/synplify/ipsxe_floating_point_tuser_v1_0.v"/>
+            <file pathname="flt_pds2.v"/>
+        </source>
+    </file_list>
+</ip_inst>

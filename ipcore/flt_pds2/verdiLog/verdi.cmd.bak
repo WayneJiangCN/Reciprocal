@@ -1,0 +1,82 @@
+debImport "-f" "filelist.f"
+debLoadSimResult \
+           /anlab/stuhome/zngz17/Lab_work/Float_point/pds_ip_10_27/ipcore/flt_pds2/flt_pds2.fsdb
+wvCreateWindow
+verdiDockWidgetSetCurTab -dock widgetDock_<Decl._Tree>
+srcTBBTreeSelect -win $_nTrace1 -path "reci"
+srcTBBTreeSelect -win $_nTrace1 -path "reci"
+srcTBBTreeSelect -win $_nTrace1 -path "reci"
+srcTBBTreeSelect -win $_nTrace1 -path "reci"
+srcTBBTreeSelect -win $_nTrace1 -path "reci"
+srcTBBTreeSelect -win $_nTrace1 -path "reci"
+srcTBTrdebExit
+ -win $_nTrace1 -path "reci"
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "i_X_fir_rre" -line 85 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "i_X_fir_rrre" -line 73 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "X_simlar" -line 81 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "X" -line 78 -pos 2 -win $_nTrace1
+srcSelect -win $_nTrace1 -range {78 78 3 5 1 1} -backward
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "X" -line 78 -pos 2 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "X_simlar" -line 81 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "i_X_fir_rre" -line 85 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 3)}
+wvSetPosition -win $_nWave2 {("G1" 2)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 2)}
+wvSetPosition -win $_nWave2 {("G1" 3)}
+wvSetCursor -win $_nWave2 5114892.499999 -snap {("G1" 2)}
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvSetCursor -win $_nWave2 169263.080319 -snap {("G2" 0)}
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "clk" -line 7 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+srcSelect -signal "rst_n" -line 8 -pos 1 -win $_nTrace1
+wvSetCursor -win $_nWave2 160580.392433 -snap {("G1" 5)}
+wvSetPosition -win $_nWave2 {("G1" 3)}
+wvSetPosition -win $_nWave2 {("G1" 2)}
+wvSetPosition -win $_nWave2 {("G1" 1)}
+wvSetPosition -win $_nWave2 {("G1" 0)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 0)}
+wvSetPosition -win $_nWave2 {("G1" 1)}
+wvSetCursor -win $_nWave2 169263.080319 -snap {("G2" 0)}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "i_X_fir_rre" -line 85 -pos 1 -win $_nTrace1
+srcAction -pos 84 4 5 -win $_nTrace1 -name "i_X_fir_rre" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {45 114 1 1 1 1} -backward
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "i_X_fir_rrre\[FLT_WIDTH+ADDR_WIDTH*4:ADDR_WIDTH*4\]" -line 121 \
+          -pos 1 -win $_nTrace1
+srcAction -pos 120 12 12 -win $_nTrace1 -name \
+          "i_X_fir_rrre\[FLT_WIDTH+ADDR_WIDTH*4:ADDR_WIDTH*4\]" -ctrlKey off

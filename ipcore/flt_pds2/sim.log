@@ -1,0 +1,166 @@
+Command: vcs -R -full64 +v2k -sverilog -debug_acc+all -fsdb +notimingcheck +nospecify \
++define+FSDB -timescale=1ns/100ps -f filelist.f -o sim -l sim.log
+                         Chronologic VCS (TM)
+       Version O-2018.09-SP1_Full64 -- Wed Nov 15 19:03:07 2023
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'rtl/synplify/div_inv/ipsxe_floating_point_div_inv_v1_0.v'
+Parsing design file 'rtl/synplify/div_inv/reci_5.v'
+Parsing design file 'rtl/synplify/div_inv/n_rom.v'
+Parsing design file 'rtl/synplify/div_inv/GTP_APM_E2.v'
+Parsing design file 'rtl/synplify/blocking/ipsxe_floating_point_axi_buffer_1io_v1_0.v'
+Parsing design file 'rtl/synplify/blocking/ipsxe_floating_point_axi_buffer_4io_v1_0.v'
+Parsing design file 'rtl/synplify/blocking/ipsxe_floating_point_sram_dualports_v1_0.v'
+Parsing design file 'rtl/synplify/ipsxe_floating_point_abcop_tvalid_v1_0.v'
+Parsing design file 'rtl/synplify/ipsxe_floating_point_aclken_aresetn_v1_0.v'
+Parsing design file 'rtl/synplify/ipsxe_floating_point_fp_15ops_v1_0.v'
+Parsing design file 'rtl/synplify/ipsxe_floating_point_op_tdata_v1_0.v'
+Parsing design file 'rtl/synplify/ipsxe_floating_point_register_v1_0.v'
+Parsing design file 'rtl/synplify/ipsxe_floating_point_tlast_v1_0.v'
+Parsing design file 'rtl/synplify/shift_register/ipm_distributed_sdpram_v1_2.v'
+Parsing design file 'rtl/synplify/shift_register/ipm_distributed_shiftregister_v1_3.v'
+Parsing design file 'rtl/synplify/shift_register/ipm_distributed_shiftregister_wrapper_v1_3.v'
+Parsing design file 'flt_pds2.v'
+Parsing design file 'flt_pds2_tb.v'
+Top Level Modules:
+       ipm_distributed_shiftregister_wrapper_v1_3
+       flt_pds2_tb
+TimeScale is 1 ns / 1 ps
+
+Warning-[TFIPC] Too few instance port connections
+rtl/synplify/ipsxe_floating_point_fp_15ops_v1_0.v, 410
+genblk2, "ipsxe_floating_point_div_inv_v1_0 #(WIDTH, WIDTH, WIDTH, EXP_WIDTH, MAN_WIDTH, LATENCY_CONFIG) u_inv( .i_clk (i_aclk),  .i_aclken (i_aclken),  .i_areset_n (i_areset_n),  .i_op_in (i_axi4s_a_tdata[(WIDTH - 1):0]),  .i_tvalid (i_axi4s_or_abcoperation_tvalid),  .o_resul (o_axi4s_result_tdata[(OUT_WIDTH - 1):0]),  .o_divide_by_zero (o_divide_by_zero),  .o_q_valid (o_axi4s_result_tvalid));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+rtl/synplify/div_inv/reci_5.v, 26
+"n_rom #(ADDR_TOTAL, ADDR_WIDTH, OUTPUT_BIT_WIDTH) u_rom( .rd_en (1),  .rd_addr (rd_addr),  .dout (Cout));"
+  The following 32-bit expression is connected to 1-bit port "rd_en" of module
+  "n_rom", instance "u_rom".
+  Expression: 1
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+rtl/synplify/div_inv/reci_5.v, 72
+"GTP_APM_E2 #("TRUE", 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, , 0, 0, 0, 0, 48'b0, 48'b0, 0, 0, 0, 0) u0_GTP_APM_E2( .P (i_X_fir_rrre),  .X ({1'b1, 23'b0}),  .Y (X_simlar),  .XB (i_X_fir_rre),  .MODEIN (5'b01110),  .MODEY (3'b0),  .MODEZ (4'b0),  .CLK (clk),  .RSTX (Rst),  .RSTXB (Rst),  .RSTY (Rst),  .RSTZ (Rst),  .RSTM (Rst),  .RSTP (Rst),  .RSTPRE (Rst),  .RSTMODEIN (Rst),  .RSTMODEY (Rst),  .RSTMODEZ (Rst),  .CEX1 (1'b0),  .CEX2 (1'b0),  .CEX3 (1'b0),  .CEXB (1'b0),  .CEY1 (1'b0),  .CEY2 (1'b0),  .CEZ (1'b0),  .CEM (1'b1),  .CEP (1'b0),  .CEPRE (1'b0),  .CEMODEIN (1'b0),  .CEMODEY (1'b0),  .CEMODEZ (1'b0));"
+  The following 35-bit expression is connected to 48-bit port "P" of module 
+  "GTP_APM_E2", instance "u0_GTP_APM_E2".
+  Expression: i_X_fir_rrre
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+rtl/synplify/div_inv/reci_5.v, 72
+"GTP_APM_E2 #("TRUE", 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, , 0, 0, 0, 0, 48'b0, 48'b0, 0, 0, 0, 0) u0_GTP_APM_E2( .P (i_X_fir_rrre),  .X ({1'b1, 23'b0}),  .Y (X_simlar),  .XB (i_X_fir_rre),  .MODEIN (5'b01110),  .MODEY (3'b0),  .MODEZ (4'b0),  .CLK (clk),  .RSTX (Rst),  .RSTXB (Rst),  .RSTY (Rst),  .RSTZ (Rst),  .RSTM (Rst),  .RSTP (Rst),  .RSTPRE (Rst),  .RSTMODEIN (Rst),  .RSTMODEY (Rst),  .RSTMODEZ (Rst),  .CEX1 (1'b0),  .CEX2 (1'b0),  .CEX3 (1'b0),  .CEXB (1'b0),  .CEY1 (1'b0),  .CEY2 (1'b0),  .CEZ (1'b0),  .CEM (1'b1),  .CEP (1'b0),  .CEPRE (1'b0),  .CEMODEIN (1'b0),  .CEMODEY (1'b0),  .CEMODEZ (1'b0));"
+  The following 24-bit expression is connected to 30-bit port "X" of module 
+  "GTP_APM_E2", instance "u0_GTP_APM_E2".
+  Expression: {1'b1, 23'b0}
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+rtl/synplify/div_inv/reci_5.v, 72
+"GTP_APM_E2 #("TRUE", 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, , 0, 0, 0, 0, 48'b0, 48'b0, 0, 0, 0, 0) u0_GTP_APM_E2( .P (i_X_fir_rrre),  .X ({1'b1, 23'b0}),  .Y (X_simlar),  .XB (i_X_fir_rre),  .MODEIN (5'b01110),  .MODEY (3'b0),  .MODEZ (4'b0),  .CLK (clk),  .RSTX (Rst),  .RSTXB (Rst),  .RSTY (Rst),  .RSTZ (Rst),  .RSTM (Rst),  .RSTP (Rst),  .RSTPRE (Rst),  .RSTMODEIN (Rst),  .RSTMODEY (Rst),  .RSTMODEZ (Rst),  .CEX1 (1'b0),  .CEX2 (1'b0),  .CEX3 (1'b0),  .CEXB (1'b0),  .CEY1 (1'b0),  .CEY2 (1'b0),  .CEZ (1'b0),  .CEM (1'b1),  .CEP (1'b0),  .CEPRE (1'b0),  .CEMODEIN (1'b0),  .CEMODEY (1'b0),  .CEMODEZ (1'b0));"
+  The following 13-bit expression is connected to 18-bit port "Y" of module 
+  "GTP_APM_E2", instance "u0_GTP_APM_E2".
+  Expression: X_simlar
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+rtl/synplify/div_inv/reci_5.v, 72
+"GTP_APM_E2 #("TRUE", 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, , 0, 0, 0, 0, 48'b0, 48'b0, 0, 0, 0, 0) u0_GTP_APM_E2( .P (i_X_fir_rrre),  .X ({1'b1, 23'b0}),  .Y (X_simlar),  .XB (i_X_fir_rre),  .MODEIN (5'b01110),  .MODEY (3'b0),  .MODEZ (4'b0),  .CLK (clk),  .RSTX (Rst),  .RSTXB (Rst),  .RSTY (Rst),  .RSTZ (Rst),  .RSTM (Rst),  .RSTP (Rst),  .RSTPRE (Rst),  .RSTMODEIN (Rst),  .RSTMODEY (Rst),  .RSTMODEZ (Rst),  .CEX1 (1'b0),  .CEX2 (1'b0),  .CEX3 (1'b0),  .CEXB (1'b0),  .CEY1 (1'b0),  .CEY2 (1'b0),  .CEZ (1'b0),  .CEM (1'b1),  .CEP (1'b0),  .CEPRE (1'b0),  .CEMODEIN (1'b0),  .CEMODEY (1'b0),  .CEMODEZ (1'b0));"
+  The following 23-bit expression is connected to 25-bit port "XB" of module 
+  "GTP_APM_E2", instance "u0_GTP_APM_E2".
+  Expression: i_X_fir_rre
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+rtl/synplify/div_inv/reci_5.v, 164
+"GTP_APM_E2 #("TRUE", 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, , 0, 0, 0, 0, 48'b0, 48'b0, 0, 0, 0, 0) u1_GTP_APM_E2( .P (i_X_sec_rrre),  .X ({1'b1, 23'b0}),  .Y (i_X_fir_ff[FLT_WIDTH:(FLT_WIDTH - (ADDR_WIDTH * 4))]),  .XB (i_X_sec_rre),  .MODEIN (5'b01110),  .MODEY (3'b0),  .MODEZ (4'b0),  .CLK (clk),  .RSTX (Rst),  .RSTXB (Rst),  .RSTY (Rst),  .RSTZ (Rst),  .RSTM (Rst),  .RSTP (Rst),  .RSTPRE (Rst),  .RSTMODEIN (Rst),  .RSTMODEY (Rst),  .RSTMODEZ (Rst),  .CEX1 (1'b0),  .CEX2 (1'b0),  .CEX3 (1'b0),  .CEXB (1'b0),  .CEY1 (1'b0),  .CEY2 (1'b0),  .CEZ (1'b0),  .CEM (1'b1),  .CEP (1'b0),  .CEPRE (1'b0),  .CEMODEIN (1'b0),  .CEMODEY (1'b0),  .CEMODEZ (1'b0));"
+  The following 35-bit expression is connected to 48-bit port "P" of module 
+  "GTP_APM_E2", instance "u1_GTP_APM_E2".
+  Expression: i_X_sec_rrre
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+rtl/synplify/div_inv/reci_5.v, 164
+"GTP_APM_E2 #("TRUE", 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, , 0, 0, 0, 0, 48'b0, 48'b0, 0, 0, 0, 0) u1_GTP_APM_E2( .P (i_X_sec_rrre),  .X ({1'b1, 23'b0}),  .Y (i_X_fir_ff[FLT_WIDTH:(FLT_WIDTH - (ADDR_WIDTH * 4))]),  .XB (i_X_sec_rre),  .MODEIN (5'b01110),  .MODEY (3'b0),  .MODEZ (4'b0),  .CLK (clk),  .RSTX (Rst),  .RSTXB (Rst),  .RSTY (Rst),  .RSTZ (Rst),  .RSTM (Rst),  .RSTP (Rst),  .RSTPRE (Rst),  .RSTMODEIN (Rst),  .RSTMODEY (Rst),  .RSTMODEZ (Rst),  .CEX1 (1'b0),  .CEX2 (1'b0),  .CEX3 (1'b0),  .CEXB (1'b0),  .CEY1 (1'b0),  .CEY2 (1'b0),  .CEZ (1'b0),  .CEM (1'b1),  .CEP (1'b0),  .CEPRE (1'b0),  .CEMODEIN (1'b0),  .CEMODEY (1'b0),  .CEMODEZ (1'b0));"
+  The following 24-bit expression is connected to 30-bit port "X" of module 
+  "GTP_APM_E2", instance "u1_GTP_APM_E2".
+  Expression: {1'b1, 23'b0}
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+rtl/synplify/div_inv/reci_5.v, 164
+"GTP_APM_E2 #("TRUE", 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, , 0, 0, 0, 0, 48'b0, 48'b0, 0, 0, 0, 0) u1_GTP_APM_E2( .P (i_X_sec_rrre),  .X ({1'b1, 23'b0}),  .Y (i_X_fir_ff[FLT_WIDTH:(FLT_WIDTH - (ADDR_WIDTH * 4))]),  .XB (i_X_sec_rre),  .MODEIN (5'b01110),  .MODEY (3'b0),  .MODEZ (4'b0),  .CLK (clk),  .RSTX (Rst),  .RSTXB (Rst),  .RSTY (Rst),  .RSTZ (Rst),  .RSTM (Rst),  .RSTP (Rst),  .RSTPRE (Rst),  .RSTMODEIN (Rst),  .RSTMODEY (Rst),  .RSTMODEZ (Rst),  .CEX1 (1'b0),  .CEX2 (1'b0),  .CEX3 (1'b0),  .CEXB (1'b0),  .CEY1 (1'b0),  .CEY2 (1'b0),  .CEZ (1'b0),  .CEM (1'b1),  .CEP (1'b0),  .CEPRE (1'b0),  .CEMODEIN (1'b0),  .CEMODEY (1'b0),  .CEMODEZ (1'b0));"
+  The following 13-bit expression is connected to 18-bit port "Y" of module 
+  "GTP_APM_E2", instance "u1_GTP_APM_E2".
+  Expression: i_X_fir_ff[FLT_WIDTH:(FLT_WIDTH - (ADDR_WIDTH * 4))]
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+rtl/synplify/div_inv/reci_5.v, 164
+"GTP_APM_E2 #("TRUE", 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, , 0, 0, 0, 0, 48'b0, 48'b0, 0, 0, 0, 0) u1_GTP_APM_E2( .P (i_X_sec_rrre),  .X ({1'b1, 23'b0}),  .Y (i_X_fir_ff[FLT_WIDTH:(FLT_WIDTH - (ADDR_WIDTH * 4))]),  .XB (i_X_sec_rre),  .MODEIN (5'b01110),  .MODEY (3'b0),  .MODEZ (4'b0),  .CLK (clk),  .RSTX (Rst),  .RSTXB (Rst),  .RSTY (Rst),  .RSTZ (Rst),  .RSTM (Rst),  .RSTP (Rst),  .RSTPRE (Rst),  .RSTMODEIN (Rst),  .RSTMODEY (Rst),  .RSTMODEZ (Rst),  .CEX1 (1'b0),  .CEX2 (1'b0),  .CEX3 (1'b0),  .CEXB (1'b0),  .CEY1 (1'b0),  .CEY2 (1'b0),  .CEZ (1'b0),  .CEM (1'b1),  .CEP (1'b0),  .CEPRE (1'b0),  .CEMODEIN (1'b0),  .CEMODEY (1'b0),  .CEMODEZ (1'b0));"
+  The following 23-bit expression is connected to 25-bit port "XB" of module 
+  "GTP_APM_E2", instance "u1_GTP_APM_E2".
+  Expression: i_X_sec_rre
+  	use +lint=PCWM for more details
+
+Starting vcs inline pass...
+3 modules and 0 UDP read.
+recompiling module flt_pds2_tb
+	However, due to incremental compilation, only 1 module needs to be compiled. 
+make[1]: Entering directory `/anlab/stuhome/zngz17/Lab_work/Float_point/pds_ip_10_27/ipcore/flt_pds2/csrc' \
+
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -shared  -Bsymbolic  -o .//../sim.daidir//_csrc0.so objs/amcQw_d.o 
+rm -f _csrc0.so
+if [ -x ../sim ]; then chmod -x ../sim; fi
+g++  -o ../sim    -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/sim.daidir/ -Wl,-rpath=./sim.daidir/ \
+-Wl,-rpath='$ORIGIN'/sim.daidir//scsim.db.dir  -rdynamic  -Wl,-rpath=/anlabeda/Synopsysb/synopsys2018/vcs-mx/O-2018.09-SP1/linux64/lib \
+-L/anlabeda/Synopsysb/synopsys2018/vcs-mx/O-2018.09-SP1/linux64/lib     _20423_archive_1.so \
+_prev_archive_1.so _csrc0.so  SIM_l.o  _csrc0.so     rmapats_mop.o rmapats.o rmar.o \
+rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o          -lzerosoft_rt_stubs -lvirsim \
+-lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile -luclinative /anlabeda/Synopsysb/synopsys2018/vcs-mx/O-2018.09-SP1/linux64/lib/vcs_tls.o \
+-Wl,-whole-archive -lvcsucli -Wl,-no-whole-archive        _vcs_pli_stub_.o   /anlabeda/Synopsysb/synopsys2018/vcs-mx/O-2018.09-SP1/linux64/lib/vcs_save_restore_new.o \
+/anlabeda/Synopsysb/synopsys2018/verdi/O-2018.09-SP1/share/PLI/VCS/LINUX64/pli.a \
+-ldl  -lc -lm -lpthread -ldl 
+../sim up to date
+make[1]: Leaving directory `/anlab/stuhome/zngz17/Lab_work/Float_point/pds_ip_10_27/ipcore/flt_pds2/csrc' \
+
+Command: /anlab/stuhome/zngz17/Lab_work/Float_point/pds_ip_10_27/ipcore/flt_pds2/./sim +v2k +notimingcheck +nospecify +define+FSDB -a sim.log
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-SP1_Full64; Runtime version O-2018.09-SP1_Full64;  Nov 15 19:03 2023
+*Verdi* WARNING: Use VERDI_HOME to replace NOVAS_HOME because NOVAS_HOME will not be supported in future releases.
+*Verdi* Loading libsscore_vcs201809.so
+FSDB Dumper for VCS, Release Verdi_O-2018.09-SP1, Linux x86_64/64bit, 11/22/2018
+(C) 1996 - 2018 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'flt_pds2.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+*Verdi* : Begin traversing the MDAs, layer (0).
+*Verdi* : Enable +mda and +packedmda dumping.
+*Verdi* : End of traversing the MDAs.
+$finish called from file "flt_pds2_tb.v", line 160.
+$finish at simulation time            101285000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 101285000 ps
+CPU Time:      0.570 seconds;       Data structure size:   0.0Mb
+Wed Nov 15 19:03:19 2023
+CPU time: .629 seconds to compile + .463 seconds to elab + 10.014 seconds to link + .618 seconds in simulation

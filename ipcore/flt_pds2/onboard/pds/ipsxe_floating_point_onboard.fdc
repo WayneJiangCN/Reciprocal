@@ -1,0 +1,11 @@
+define_attribute {p:i_aclk} {PAP_IO_DIRECTION} {INPUT}
+define_attribute {p:i_aclk} {PAP_IO_LOC} {T26}
+define_attribute {p:i_aclk} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:i_aclk} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:i_aclk} {PAP_IO_UNUSED} {TRUE}
+define_attribute {p:i_areset_n} {PAP_IO_DIRECTION} {INPUT}
+define_attribute {p:i_areset_n} {PAP_IO_LOC} {T27}
+define_attribute {p:i_areset_n} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:i_areset_n} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:i_areset_n} {PAP_IO_NONE} {TRUE}
+create_clock -name {i_aclk} [get_ports {i_aclk}] -period {5.000} -waveform {0.000 2.500}

@@ -1,0 +1,20 @@
+*design* DebussyLib (btIdent Verdi_O-2018.09-SP1)
+Command arguments:
+    +define+verilog
+    -f filelist.f
+        /anlab/stuhome/zngz17/Lab_work/Float_point/pds_ip_10_27/APM_ip/GTP_APM_E2.v
+        /anlab/stuhome/zngz17/Lab_work/Float_point/pds_ip_10_27/APM_ip/tb_GTP_APM_E2.v
+
+Highest level modules:
+tb_GTP_APM_E2
+
+
+*Warning* port sizes differ (30 vs 25) in port connection (port X)
+"/anlab/stuhome/zngz17/Lab_work/Float_point/pds_ip_10_27/APM_ip/tb_GTP_APM_E2.v", 74: 
+
+*Warning* port sizes differ (18 vs 17) in port connection (port Y)
+"/anlab/stuhome/zngz17/Lab_work/Float_point/pds_ip_10_27/APM_ip/tb_GTP_APM_E2.v", 77: 
+
+*Warning* port sizes differ (25 vs 24) in port connection (port XB)
+"/anlab/stuhome/zngz17/Lab_work/Float_point/pds_ip_10_27/APM_ip/tb_GTP_APM_E2.v", 81: 
+Total	0 error(s),   3 warning(s)
